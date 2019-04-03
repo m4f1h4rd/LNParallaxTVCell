@@ -8,8 +8,7 @@ Pod::Spec.new do |s|
   s.license      = "BSD"
   s.author       = { "Lanars" => "https://github.com/LanarsInc" }
   s.platform     = :ios, "10.0"
-  s.swift_version = "5.0"
   s.source       = { :git => "https://github.com/LanarsInc/LNParallaxTVCell.git", :tag => "#{s.version}" }
-  s.source_files  = "LNParallaxTVCell/LNParallaxTVCell"
+  s.source_files = "LNParallaxTVCell/LNParallaxTVCell"
 
 end
