@@ -7,7 +7,7 @@
 
 A subclass of UITableViewCell to present the parallax effect. You won't use UITableViewDelegate or something else, you can use it simply like UITableViewCell, or customize parallax ratio or another properties.
 
-<img width="247.5" height="446" src="DEMO.gif">
+![Preview](https://github.com/LanarsInc/LNParallaxTVCell/blob/master/DEMO.gif)
 
 ## Installation
 
