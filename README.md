@@ -1,9 +1,9 @@
 # LNParallaxTVCell - Swift
 
-[![CocoaPods](https://img.shields.io/cocoapods/v/LNParallaxTVCell-Swift.svg)]()
-[![CocoaPods](https://img.shields.io/cocoapods/p/LNParallaxTVCell - Swift.svg)]()
+[![CocoaPods](https://img.shields.io/cocoapods/v/LanarsInc/LNParallaxTVCell.svg)]()
+[![CocoaPods](https://img.shields.io/cocoapods/p/LanarsInc/LNParallaxTVCell.svg)]()
 ![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg)
-[![CocoaPods](https://img.shields.io/cocoapods/l/LNParallaxTVCell - Swift.svg)]()
+[![CocoaPods](https://img.shields.io/cocoapods/l/LanarsInc/LNParallaxTVCell.svg)]()
 
 A subclass of UITableViewCell to present the parallax effect. You won't use UITableViewDelegate or something else, you can use it simply like UITableViewCell, or customize parallax ratio or another properties.
 
