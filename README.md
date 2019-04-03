@@ -1,5 +1,4 @@
 # LNParallaxTVCell - Swift
-UITableViewCell with parallax effect
 
 [![CocoaPods](https://img.shields.io/cocoapods/v/LNParallaxTVCell.svg)]()
 [![CocoaPods](https://img.shields.io/cocoapods/p/LNParallaxTVCell.svg)]()
