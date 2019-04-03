@@ -1,6 +1,6 @@
 //
 //  LNParallaxTVCell.swift
-//
+//  LNParallaxTVCell
 //
 //  Copyright © 2019 Lanars. All rights reserved.
 //  https://lanars.com/
@@ -13,17 +13,20 @@ private let kMaxParallaxRatio: CGFloat = 1.0
 private let kDefaultParallaxRatio: CGFloat = 0.5
 private let kContentOffsetKey = "contentOffset"
 
-@IBDesignable public class LNParallaxTVCell: UITableViewCell {
+@IBDesignable
+public class LNParallaxTVCell: UITableViewCell {
     
-    var parallaxImage = UIImageView()
+    public var parallaxImage = UIImageView()
     
-    @IBInspectable var parallaxImageBackgroundColor: UIColor = .white {
+    @IBInspectable
+    public var parallaxImageBackgroundColor: UIColor = .white {
         didSet {
             parallaxImage.backgroundColor = parallaxImageBackgroundColor
         }
     }
     
-    @IBInspectable var parallaxRatio: CGFloat = kDefaultParallaxRatio {
+    @IBInspectable
+    public var parallaxRatio: CGFloat = kDefaultParallaxRatio {
         didSet {
             parallaxRatio = min(parallaxRatio, kMaxParallaxRatio)
             parallaxRatio = max(parallaxRatio, kMinParallaxRatio)
