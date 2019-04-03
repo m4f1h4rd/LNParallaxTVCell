@@ -1,6 +1,6 @@
 # LNParallaxTVCell - Swift
 
-[![CocoaPods](https://img.shields.io/cocoapods/v/LNParallaxTVCell - Swift.svg)]()
+[![CocoaPods](https://img.shields.io/cocoapods/v/LNParallaxTVCell-Swift.svg)]()
 [![CocoaPods](https://img.shields.io/cocoapods/p/LNParallaxTVCell - Swift.svg)]()
 ![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg)
 [![CocoaPods](https://img.shields.io/cocoapods/l/LNParallaxTVCell - Swift.svg)]()
