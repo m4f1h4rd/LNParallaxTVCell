@@ -7,6 +7,6 @@ target 'LNParallaxTVCellExample' do
 
   # Pods for LNParallaxTVCellExample
   
-  pod 'LNParallaxTVCell', :path => ".."
+  pod 'LNParallaxTVCell'
 
 end
