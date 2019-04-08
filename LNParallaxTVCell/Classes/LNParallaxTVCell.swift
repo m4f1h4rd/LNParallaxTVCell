@@ -14,19 +14,19 @@ private let kDefaultParallaxRatio: CGFloat = 0.5
 private let kContentOffsetKey = "contentOffset"
 
 @IBDesignable
-public class LNParallaxTVCell: UITableViewCell {
+open class LNParallaxTVCell: UITableViewCell {
     
-    public var parallaxImage = UIImageView()
+    open var parallaxImage = UIImageView()
     
     @IBInspectable
-    public var parallaxImageBackgroundColor: UIColor = .white {
+    open var parallaxImageBackgroundColor: UIColor = .white {
         didSet {
             parallaxImage.backgroundColor = parallaxImageBackgroundColor
         }
     }
     
     @IBInspectable
-    public var parallaxRatio: CGFloat = kDefaultParallaxRatio {
+    open var parallaxRatio: CGFloat = kDefaultParallaxRatio {
         didSet {
             parallaxRatio = min(parallaxRatio, kMaxParallaxRatio)
             parallaxRatio = max(parallaxRatio, kMinParallaxRatio)
