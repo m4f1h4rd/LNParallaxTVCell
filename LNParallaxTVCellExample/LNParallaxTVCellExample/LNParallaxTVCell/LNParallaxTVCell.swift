@@ -43,7 +43,7 @@ open class LNParallaxTVCell: UITableViewCell {
     
     // MARK: - Lifecycle
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         setup()
@@ -76,7 +76,7 @@ open class LNParallaxTVCell: UITableViewCell {
     
     // MARK: - UIViewHierarchy
     
-    override public func willMove(toSuperview newSuperview: UIView?) {
+    override open func willMove(toSuperview newSuperview: UIView?) {
         super.willMove(toSuperview: newSuperview)
         
         tableView = newSuperview as? UITableView
@@ -84,13 +84,13 @@ open class LNParallaxTVCell: UITableViewCell {
         addObservers()
     }
     
-    override public func removeFromSuperview() {
+    override open func removeFromSuperview() {
         super.removeFromSuperview()
         
         removeObservers()
     }
     
-    override public func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         
         let tempParallaxRatio = parallaxRatio
@@ -126,7 +126,7 @@ open class LNParallaxTVCell: UITableViewCell {
         tableView = nil
     }
     
-    override public func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+    override open func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         
         guard
             keyPath == kContentOffsetKey,
