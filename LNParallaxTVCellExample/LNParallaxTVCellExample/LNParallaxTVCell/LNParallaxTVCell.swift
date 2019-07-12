@@ -19,13 +19,6 @@ open class LNParallaxTVCell: UITableViewCell {
     open var parallaxImage = UIImageView()
     
     @IBInspectable
-    open var parallaxImageBackgroundColor: UIColor = .white {
-        didSet {
-            parallaxImage.backgroundColor = parallaxImageBackgroundColor
-        }
-    }
-    
-    @IBInspectable
     open var parallaxRatio: CGFloat = kDefaultParallaxRatio {
         didSet {
             parallaxRatio = min(parallaxRatio, kMaxParallaxRatio)
@@ -36,6 +29,13 @@ open class LNParallaxTVCell: UITableViewCell {
             parallaxImage.frame = rect
             
             updateParallaxOffset()
+        }
+    }
+    
+    @IBInspectable
+    open var parallaxImageBackgroundColor: UIColor = .white {
+        didSet {
+            parallaxImage.backgroundColor = parallaxImageBackgroundColor
         }
     }
     
