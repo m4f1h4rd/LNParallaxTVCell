@@ -1,13 +1,13 @@
 # LNParallaxTVCell - Swift
 
-[![CocoaPods](https://img.shields.io/cocoapods/v/LNParallaxTVCell.svg)]()
-[![CocoaPods](https://img.shields.io/cocoapods/p/LNParallaxTVCell.svg)]()
+![iOS](https://img.shields.io/badge/pod-1.0.0-blue.svg)
+![Platform](http://img.shields.io/badge/platform-iOS-green.svg?style=flat) 
 ![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg)
-[![CocoaPods](https://img.shields.io/cocoapods/l/LNParallaxTVCell.svg)]()
+[![License](http://img.shields.io/badge/license-BSD-lightgrey.svg?style=flat)](https://github.com/LanarsInc/LNParallaxTVCell/blob/master/LICENSE)
 
-A subclass of UITableViewCell to present the parallax effect. You won't use UITableViewDelegate or something else, you can use it simply like UITableViewCell, or customize parallax ratio and another properties.
+A subclass of UITableViewCell to present the parallax effect. You won't use UITableViewDelegate or something else, you can use it simply like UITableViewCell, or customize parallax ratio or another properties.
 
-![Preview](https://github.com/LanarsInc/LNParallaxTVCell/blob/master/DEMO.gif)
+<img width="247.5" height="446" src="DEMO.gif">
 
 ## Installation
 
@@ -24,7 +24,7 @@ To install manually LNParallaxTVCell in an app, just drag LNParallaxTVCell.swift
 1. Import LNParallaxTVCell module to your class
 
 ```swift
-    import LNParallaxTVCell
+import LNParallaxTVCell
 ```
 
 2. Set your UITableViewCell class as LNParallaxTVCell in storyboard or .xib file
